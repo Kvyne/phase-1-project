@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Gets the form element by its ID
     const form = document.getElementById('bmiForm');
-    
+
      // Add an event listener to the form for the 'submit' event
     form.addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent the default form submission via HTTP
@@ -29,4 +29,30 @@ document.addEventListener('DOMContentLoaded', function() {
     'X-RapidAPI-Host': 'fitness-calculator.p.rapidapi.com'
     }
     };
-    
+
+    // Making a fetch request to a specified URL with parameters and options
+        fetch(`${url}?${params}`, options)
+    .then(response => {
+
+          // Checking if the response is not okay
+    if (!response.ok) {
+        // Parsing the response body as json and throwing an error
+    return response.json().then(json => {
+    throw new Error(`err.message` ||'Network response was not ok');
+    }).catch(() => {
+    // If parsing the response body fails, throw a generic error
+    throw new Error('Network response was not ok and error details could not be parsed');
+    });
+    }
+    // If the response is okay, parsing the response body as json
+    return response.json();
+    })
+    .then(data => {
+           // Accessing the 'data' property from the response and updating the result in the HTML
+    document.getElementById('result').innerText = `Your BMI is ${data.data.bmi}, which is considered ${data.data.health}. Healthy BMI range is ${data.data.healthy_bmi_range}.`;
+    // Resetting the form after displaying the result
+    form.reset();
+    })
+    .catch(error => {
+        // Catching any errors that occur during the fetch request and logging the error
+    console.error('Fetch error:', error);

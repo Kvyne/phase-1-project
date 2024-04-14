@@ -87,3 +87,40 @@ form {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
     }
+    input[type="submit"]:hover {
+        background-color: #45a049; /* Darker shade of green on hover */
+        }
+        .calculate-button {
+        background-color: #4CAF50; /* Green background */
+        color: white; /* White text */
+        padding: 15px 32px; /* Padding inside the button */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline from links */
+        display: inline-block; /* Allow setting dimensions */
+        font-size: 16px; /* Text size */
+        margin: 4px 2px; /* Margin around the button */
+        cursor: pointer; /* Change mouse cursor to pointer when over the button */
+        border: none; /* Remove border */
+        border-radius: 8px; /* Rounded corners */
+        transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+        .calculate-button:hover {
+        background-color: #45a049; /* Darker shade of green on hover */
+        }
+        #retryButton {
+        background-color: #ff4800; /* Green background */
+        color: white; /* White text */
+        padding: 15px 32px; /* Padding inside the button */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline from links */
+        display: inline-block; /* Allow setting dimensions */
+        font-size: 16px; /* Text size */
+        margin: 4px auto; /* Margin around the button */
+        cursor: pointer; /* Change mouse cursor to pointer when over the button */
+        border: none; /* Remove border */
+        border-radius: 8px; /* Rounded corners */
+        transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+        #retryButton:hover {
+        background-color: #411d0f; /* Darker shade of green on hover */
+        }
