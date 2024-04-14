@@ -22,9 +22,9 @@
     <h2 id="about">About Us</h2>
     <div class="about-paragraph">
         <p>
-            Welcome to BMI Tracker!
+            Welcome to Nutrocoach BMI calculator!
             <br>
-            Are you curious about your Body Mass Index (BMI) and what it means for your health? BMI Tracker is here to help you understand and track your BMI effortles</p>
+            Are you curious about your Body Mass Index (BMI) and what it means for your health? Nutrocoach BMI calculator is here to help you understand and track your BMI effortles</p>
     </div>
         <h2 id="what-bmi-heading">What is BMI?</h2>
     <div class="bmi-heading-info">
@@ -71,9 +71,19 @@ Start tracking your BMI today with Nutrocoach BMI Tracker. Your health is import
             <br>
             <input type="submit" value="Calculate BMI">
         </form>
-        <div id="result">Your BMI result will appear here.</div>
+        <div id="result"></div>
         <button id="retryButton" style="display:none;">Retry</button>
         </div>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; <span id="year"></span> Nutrocoach. All rights reserved.</p>
+                <p><a href="#contact">Contact Us</a></p>
+            </div>
+        </footer>
+        <script>
+            // Set the current year
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
     <script src="script.js"></script>
 </body>
 </html>

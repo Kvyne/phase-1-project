@@ -9,12 +9,40 @@
     text-shadow: 2px 2px 4px #000000; /* Adds shadow to the text for better visibility */
     }
 
+    /* Navigation Bar Styling */
+    nav {
+        background-color: #ffffff; /* Light background for better contrast */
+        back
+        text-align: center; /* Center-align the navigation links */
+        padding: 10px 0; /* Padding above and below the links */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Consistent font style */
+    }
     
+    nav a {
+        color: #333; /* Dark color for the text for better readability */
+        padding: 10px 15px; /* Padding around the links for easier clicking */
+        text-decoration: none; /* Remove underline from links */
+        font-size: 18px; /* Increase font size for readability */
+        transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effects */
+        margin: 0 10px; /* Space between links */
+        border-radius: 5px; /* Slightly rounded corners for the links */
+    }
+    
+    nav a:hover, nav a:focus {
+        color: #ffffff; /* White text on hover/focus for contrast */
+        background-color: #4CAF50; /* Change background on hover/focus */
+    }
+    
+    /* Optional: Add a container around the nav for further styling */
+    .header-container {
+        margin-bottom: 20px; /* Space below the header/nav container */
+    }
 #about {
     background-color: #f2f2f2; /* Sets a light background color */
     text-align: center; /* Centers the text */
     padding: 40px 20px; /* Adds padding around the text */
-    font-size: 40px; /* Increases the font size */
+    font-size: 30px; /* Increases the font size */
     color: #333; /* Sets the text color */
     margin: 20px auto; /* Adds margin to the top and bottom, auto aligns horizontally */
     width: 80%; /* Sets the width of the section */
@@ -32,7 +60,7 @@
     #what-bmi-heading{
         background-color: #f2f2f2; /* Sets a light background color */
         text-align: center; /* Centers the text */
-        padding: 20px 20px ; /* Adds padding around the text */
+        padding: 40px 40px ; /* Adds padding around the text */
         font-size: 30px; /* Increases the font size */
         color: #333; /* Sets the text color */
         margin: 20px auto; /* Adds margin to the top and bottom, auto aligns horizontally */
@@ -50,7 +78,7 @@
     #how-bmi {
         background-color: #f2f2f2; /* Sets a light background color */
         text-align: center; /* Centers the text */
-        padding: 20px 20px ; /* Adds padding around the text */
+        padding: 40px 40px ; /* Adds padding around the text */
         font-size: 30px; /* Increases the font size */
         color: #333; /* Sets the text color */
         margin: 20px auto; /* Adds margin to the top and bottom, auto aligns horizontally */
@@ -75,7 +103,7 @@
     #why-track-bmi {
         background-color: #f2f2f2; /* Sets a light background color */
         text-align: center; /* Centers the text */
-        padding: 20px 20px ; /* Adds padding around the text */
+        padding: 40px 40px ; /* Adds padding around the text */
         font-size: 30px; /* Increases the font size */
         color: #333; /* Sets the text color */
         margin: 20px auto; /* Adds margin to the top and bottom, auto aligns horizontally */
@@ -95,7 +123,7 @@
     #how-track-bmi{
         background-color: #f2f2f2; /* Sets a light background color */
         text-align: center; /* Centers the text */
-        padding: 20px 20px ; /* Adds padding around the text */
+        padding: 40px 40px ; /* Adds padding around the text */
         font-size: 30px; /* Increases the font size */
         color: #333; /* Sets the text color */
         margin: 20px auto; /* Adds margin to the top and bottom, auto aligns horizontally */
@@ -111,7 +139,7 @@
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-form {
+    form {
     background-color: #ffffff; /* Light background for the form */
     padding: 20px;
     border-radius: 10px; /* Rounded corners for the form */
@@ -181,3 +209,19 @@ form {
         #retryButton:hover {
         background-color: #411d0f; /* Darker shade of green on hover */
         }
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 20px 0; /* Padding above and below the text */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Consistent font style */
+}
+
+footer a {
+    color: #4CAF50; /* Light green color for links for a pop of color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underline on hover for better visibility */
+}
