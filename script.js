@@ -56,3 +56,24 @@ document.addEventListener('DOMContentLoaded', function() {
     .catch(error => {
         // Catching any errors that occur during the fetch request and logging the error
     console.error('Fetch error:', error);
+    document.getElementById('result').innerText = 'Invalid data. Please try again!';
+    document.getElementById('retryButton').style.display = 'block';
+    });
+    });
+
+    // Add an event listener to the element with the ID 'retryButton' when it's clicked
+    document.getElementById('retryButton').addEventListener('click', function() {
+
+     // Hide the 'retryButton' element when it is clicked   
+    document.getElementById('retryButton').style.display = 'none';
+
+        // Set the text content of the element with the ID 'result' to an empty string
+    document.getElementById('result').innerText = '';
+
+   // Reset the form associated with the page
+    form.reset();
+
+    // Set the focus on the input element with the ID 'age' after resetting the form
+    document.getElementById('age').focus();
+    });
+    });
