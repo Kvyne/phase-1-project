@@ -29,6 +29,24 @@
     padding: 20px;
     font-size: 20px;
     }
+    .what-bmi-heading{
+        background-color: #f2f2f2; /* Sets a light background color */
+        text-align: center; /* Centers the text */
+        padding: 60px 30px ; /* Adds padding around the text */
+        font-size: 40px; /* Increases the font size */
+        color: #333; /* Sets the text color */
+        margin: 20px auto; /* Adds margin to the top and bottom, auto aligns horizontally */
+        width: 80%; /* Sets the width of the section */
+        border-radius: 8px; /* Rounds the corners of the section */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the section */
+    }
+    .bmi-heading-info {
+        text-align: center;
+        background-size: cover;
+        padding: 30px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
     .how-to-calc {
     background-color: #f2f2f2; /* Sets a light background color */
     text-align: center; /* Centers the text */
@@ -53,7 +71,45 @@
     font-size: 20px;
     background: linear-gradient(to right, #4df3c1, #58d0e6, #7acece);
     }
+
+    .why-track {
+        background-color: #f2f2f2; /* Sets a light background color */
+        text-align: center; /* Centers the text */
+        padding: 2px 2px ; /* Adds padding around the text */
+        font-size: 30px; /* Increases the font size */
+        color: #333; /* Sets the text color */
+        margin: 20px auto; /* Adds margin to the top and bottom, auto aligns horizontally */
+        width: 80%; /* Sets the width of the section */
+        border-radius: 8px; /* Rounds the corners of the section */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the section */
+    }
+
+    .tracking-info {
+        text-align: center;
+        background-size: cover;
+        padding: 30px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .how-bmi {
+        background-color: #f2f2f2; /* Sets a light background color */
+        text-align: center; /* Centers the text */
+        padding: 2px 2px ; /* Adds padding around the text */
+        font-size: 30px; /* Increases the font size */
+        color: #333; /* Sets the text color */
+        margin: 20px auto; /* Adds margin to the top and bottom, auto aligns horizontally */
+        width: 80%; /* Sets the width of the section */
+        border-radius: 8px; /* Rounds the corners of the section */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the section */
+    }
     /* Form Styling */
+    .how-bmi-info {
+        text-align: center;
+        background-size: cover;
+        padding: 30px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 form {
     background-color: #ffffff; /* Light background for the form */
     padding: 20px;
