@@ -1,0 +1,61 @@
+.title {
+    background-image: url('https://i.pinimg.com/564x/67/d9/d3/67d9d3ccb257702359969384d68de9dc.jpg');
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: #ffffff; /* Adds white color to the text for better readability */
+    text-shadow: 2px 2px 4px #000000; /* Adds shadow to the text for better visibility */
+    }
+
+    
+#about {
+    background-color: #f2f2f2; /* Sets a light background color */
+    text-align: center; /* Centers the text */
+    padding: 40px 20px; /* Adds padding around the text */
+    font-size: 40px; /* Increases the font size */
+    color: #333; /* Sets the text color */
+    margin: 20px auto; /* Adds margin to the top and bottom, auto aligns horizontally */
+    width: 80%; /* Sets the width of the section */
+    border-radius: 8px; /* Rounds the corners of the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the section */
+    line-height: 1.5; /* Increases line spacing for better readability */
+    transition: transform 0.3s ease-in-out; /* Adds a smooth transition effect on hover */
+    }
+    .about-paragraph {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    }
+    .contact-us {
+    background-color: #f2f2f2; /* Sets a light background color */
+    text-align: center; /* Centers the text */
+    padding: 2px 2px ; /* Adds padding around the text */
+    font-size: 30px; /* Increases the font size */
+    color: #333; /* Sets the text color */
+    margin: 20px auto; /* Adds margin to the top and bottom, auto aligns horizontally */
+    width: 80%; /* Sets the width of the section */
+    border-radius: 8px; /* Rounds the corners of the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the section */
+    }
+    .contact-info {
+    text-align: center;
+    background-size: cover;
+    padding: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .calorie-calc {
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    background: linear-gradient(to right, #4df3c1, #58d0e6, #7acece);
+    }
+    
+    .calc-block {
+    background-color: rgb(30, 121, 224);
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(30, 121, 224), rgb(34, 214, 190));
+    } 
