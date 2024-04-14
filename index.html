@@ -8,35 +8,78 @@
 </head>
 <body>
     <div class="title">
-    <h1>NUTROCOACH</h1>
+    <h1>NUTROCOACH BMI CALCULATOR</h1>
     </div>
     <h2 id="about">About Us</h2>
     <div class="about-paragraph">
-        <p>Welcome to my website, where I am passionate about helping you achieve your health and wellness goals through a balanced approach to nutrition and fitness.</p>
+        <p>
+            Welcome to BMI Tracker!
+            <br>
+            Are you curious about your Body Mass Index (BMI) and what it means for your health? BMI Tracker is here to help you understand and track your BMI effortles</p>
     </div>
-    <div class="contact-us"><h1>Contact Us</h1>
+    <div>
+        <h3>What is BMI?</h3>
+<p>BMI is a measure of body fat based on your height and weight. It provides a rough idea of whether you're underweight, normal weight, overweight, or obese, and it's used as a screening tool to identify possible weight problems in adults.</p>
     </div>
-    <div class="contact-info">
-        <p>If you have any questions about Nutrocoach, feel free to contact us at our number 07001234567.</p>
+    <div class="how-to-calc"><h2>How to Calculate BMI</h1>
+    </div>
+    <div class="calc-info">
+        <p>BMI is calculated by dividing your weight in kilograms by the square of your height in meters. The formula is:
+            
+            BMI
+            =
+            weight (kg)
+            height (m)
+            2
+            BMI= 
+            height (m) 
+            2
+             
+            weight (kg)
+            ​
+             
+            
+            What Your BMI Means
+            
+            Underweight: BMI less than 18.5
+            Normal weight: BMI between 18.5 and 24.9
+            Overweight: BMI between 25 and 29.9
+            Obese: BMI 30 or higher</p>
+    </div>
+    <div>
+        <h2>WHY TRACK YOUR BMI</h2>
+    </div>
+    <div>
+        <p>Tracking your BMI can help you monitor your weight and assess your risk for weight-related health problems. It's a simple way to gauge whether you're in a healthy weight range.</p>
+    </div>
+    <div>
+        <h2>HOW BMI TRACKER CAN HELP</h2>
+    </div>
+    <div>
+        <p>BMI Tracker makes it easy to calculate and track your BMI over time. Simply enter your height and weight, and we'll provide you with your BMI and what it means for your health. You can also track your BMI history to see your progress</p>
+        <br>
+        <p>
+Start tracking your BMI today with Nutrocoach BMI Tracker. Your health is important, and knowing your BMI is the first step towards a healthier you
+        </p>
     </div>
     <br>
     <div class="bmi-calc">
         <h1>Body Mass Index (BMI) Calculator</h1>
         <form id="bmiForm">
             <label for="age">Age:</label>
-            <input type="number" id="age" name="age" required>
+            <input type="number" id="age" name="age" required min="1" max="90">
             <br>
             <label for="weight">Weight (kg):</label>
-            <input type="number" id="weight" name="weight" required>
+            <input type="number" id="weight" name="weight" required min="1" max="200">
             <br>
             <label for="height">Height (cm):</label>
-            <input type="number" id="height" name="height" required>
+            <input type="number" id="height" name="height" required min="10" max="280">
             <br>
             <input type="submit" value="Calculate BMI">
         </form>
         <div id="result">Your BMI result will appear here.</div>
         <button id="retryButton" style="display:none;">Retry</button>
         </div>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
