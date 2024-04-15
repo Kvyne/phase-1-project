@@ -208,6 +208,16 @@
         #retryButton:hover {
         background-color: #411d0f; /* Darker shade of green on hover */
         }
+        #result {
+            margin-top: 20px;
+            padding: 40px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: #333;
+            font-size: 25px;
+            text-align: center;
+        }
         footer {
             background-color: #333; /* Dark background for the footer */
             color: #fff; /* White text color */

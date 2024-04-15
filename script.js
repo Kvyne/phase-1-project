@@ -77,3 +77,4 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('age').focus();
     });
     });
+    document.getElementById('year').textContent = new Date().getFullYear();
