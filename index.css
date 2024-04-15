@@ -40,8 +40,8 @@
 #about {
     background-color: #f2f2f2; /* Sets a light background color */
     text-align: center; /* Centers the text */
-    padding: 40px 20px; /* Adds padding around the text */
-    font-size: 30px; /* Increases the font size */
+    padding: 20px 20px; /* Adds padding around the text */
+    font-size: 40px; /* Increases the font size */
     color: #333; /* Sets the text color */
     margin: 20px auto; /* Adds margin to the top and bottom, auto aligns horizontally */
     width: 80%; /* Sets the width of the section */
@@ -120,14 +120,14 @@
     }
 
     #how-track-bmi{
-        background-color: #f2f2f2; 
-        text-align: center; 
-        padding: 40px 40px ;
-        font-size: 30px; 
-        color: #333; 
-        margin: 20px auto; 
-        width: 80%; 
-        border-radius: 8px; 
+        background-color: #f2f2f2; /* Sets a light background color */
+        text-align: center; /* Centers the text */
+        padding: 40px 20px ; /* Adds padding around the text */
+        font-size: 30px; /* Increases the font size */
+        color: #333; /* Sets the text color */
+        margin: 20px auto; /* Adds margin to the top and bottom, auto aligns horizontally */
+        width: 80%; /* Sets the width of the section */
+        border-radius: 8px; /* Rounds the corners of the section */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the section */
     }
     /* Form Styling */
@@ -138,8 +138,8 @@
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    form {
-    background-color: #ffffff; 
+ form {
+    background-color: #ffffff; /* Light background for the form */
     padding: 20px;
     border-radius: 10px; /* Rounded corners for the form */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
@@ -152,7 +152,7 @@
     /* Input Fields Styling */
     input[type="number"] {
     width: calc(100% - 24px); /* Full width minus padding */
-    padding: 10px; 
+    padding: 10px; /* Comfortable padding around the text */
     margin-bottom: 15px; /* Space between the inputs */
     border: 1px solid #ccc; /* Subtle border */
     border-radius: 5px; /* Slightly rounded corners for the input fields */
@@ -162,8 +162,8 @@
     /* Submit Button Styling */
     input[type="submit"] {
     background-color: #4CAF50; /* Green background */
-    color: white; 
-    padding: 12px 20px; 
+    color: white; /* White text */
+    padding: 12px 20px; /* Padding inside tche button */
     border: none; /* Remove border */
     border-radius: 5px; /* Rounded corners for the button */
     cursor: pointer; /* Change mouse cursor to pointer when over the button */
@@ -176,9 +176,9 @@
         }
         .calculate-button {
         background-color: #4CAF50; /* Green background */
-        color: white; 
-        padding: 15px 32px; 
-        text-align: center; 
+        color: white; /* White text */
+        padding: 15px 32px; /* Padding inside the button */
+        text-align: center; /* Center the text */
         text-decoration: none; /* Remove underline from links */
         display: inline-block; /* Allow setting dimensions */
         font-size: 16px; /* Text size */
@@ -193,9 +193,9 @@
         }
         #retryButton {
         background-color: #ff4800; /* Green background */
-        color: white;
-        padding: 15px 32px; 
-        text-align: center; 
+        color: white; /* White text */
+        padding: 15px 32px; /* Padding inside the button */
+        text-align: center; /* Center the text */
         text-decoration: none; /* Remove underline from links */
         display: inline-block; /* Allow setting dimensions */
         font-size: 16px; /* Text size */
@@ -203,8 +203,24 @@
         cursor: pointer; /* Change mouse cursor to pointer when over the button */
         border: none; /* Remove border */
         border-radius: 8px; /* Rounded corners */
-        transition: background-color 0.3s; /* hover effect */
+        transition: background-color 0.3s; /* Smooth transition for hover effect */
         }
         #retryButton:hover {
-        background-color: #411d0f; 
+        background-color: #411d0f; /* Darker shade of green on hover */
+        }
+        footer {
+            background-color: #333; /* Dark background for the footer */
+            color: #fff; /* White text color */
+            text-align: center; /* Center the text */
+            padding: 20px 0; /* Padding above and below the text */
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Consistent font style */
+        }
+        
+        footer a {
+            color: #4CAF50; /* Light green color for links for a pop of color */
+            text-decoration: none; /* Remove underline from links */
+        }
+        
+        footer a:hover {
+            text-decoration: underline; /* Add underline on hover for better visibility */
         }
